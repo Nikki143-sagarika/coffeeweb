@@ -60,7 +60,7 @@
         }
         #forth{
             width: 100%;
-            height: 550px;
+            height: 400px;
             background-color: bisque;
             display: flex;
             align-items: center;
@@ -119,11 +119,19 @@
             background-color: rgb(72, 37, 11);
             color: aliceblue;
         }
+        #man{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center ;
+            background-color: rgb(39, 20, 6);
+        }
          #resume{
             height: 45px;
             width: 280px;
             font-size: 22px;
-            background-color: rgba(0, 0, 0, 0.815);
+            background-color: rgba(118, 95, 95, 0.815);
             color: white;
             border: none;
             border-radius: 12px;
@@ -144,6 +152,11 @@
             align-items:center ;
             justify-content: space-around;
             flex-direction: column;
+        }
+        button{
+            background-color: darkkhaki;
+            border-radius: 12px;
+            cursor: pointer;
         }
     </style>
 
@@ -215,34 +228,18 @@
              <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <img src="cup1.png" height="150px">
                 <h3>Types of Coffee</h3>
-                <p style="text-align: justify; width: 250px;">Coffee is a beverage brewed from roasted, ground seeds of the coffee plant,
-                     which is actually a type of fruit called coffee cherries. The caffeine content 
-                     in coffee provides its stimulating effect, making it one of the most widely
-                      consumed psychoactive substances worldwide.</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <img src="cup2.png" height="150px">
                 <h3>Bean Varities</h3>
-                <p style="text-align:justify;width: 250px;">Coffee is a beverage brewed from roasted, ground seeds of the coffee plant,
-                     which is actually a type of fruit called coffee cherries. The caffeine content 
-                     in coffee provides its stimulating effect, making it one of the most widely
-                      consumed psychoactive substances worldwide.</p>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <img src="cup3.png" height="150px">
                 <h3>Coffee & Pastry</h3>
-                <p style="text-align:justify; width: 250px;">Coffee is a beverage brewed from roasted, ground seeds of the coffee plant,
-                     which is actually a type of fruit called coffee cherries. The caffeine content 
-                     in coffee provides its stimulating effect, making it one of the most widely
-                      consumed psychoactive substances worldwide.</p>
             </div >
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
                 <img src="cup4.png" height="150px">
                 <h3>Coffee To Go</h3>
-                <p style="text-align:justify; width: 250px;">Coffee is a beverage brewed from roasted, ground seeds of the coffee plant,
-                     which is actually a type of fruit called coffee cherries. The caffeine content 
-                     in coffee provides its stimulating effect, making it one of the most widely
-                      consumed psychoactive substances worldwide.</p>
             </div> 
         </div> 
 
@@ -311,11 +308,23 @@
             </p>
         </div>
 
-        <div style="display: flex; align-items: center; justify-content: center; column-gap: 12px; row-gap: 12px; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; justify-content: center; column-gap: 12px; row-gap: 12px; flex-wrap: wrap; background-color: bisque;">
             <img src="memory1.jpg" alt="" width="280" style="border: 2px solid black; border-radius:10% / 50% ;">
             <img src="memory2.jpg" alt="" width="300" style="border: 2px solid black; border-radius:10% / 50% ;">
             <img src="memory3.jpg" alt="" width="300" style="border: 2px solid black; border-radius:10% / 50% ;">
             <img src="memory4.jpg" alt="" width="340" style="border: 2px solid black; border-radius:10% / 50% ;">
+        </div>
+        <div id="man">
+            <h1 style="font-size: 40px; color: whitesmoke;">Our customer says</h1>
+            <img src="https://www.swaggerandswoon.com/cdn/shop/files/boys-matching-pocket-square-childrenswear-swagger-swoon-323907.jpg?v=1734437115&width=1445" 
+            style="height:200px ; width: 300px; border: 2px solid black; border-radius: 50%;" >
+            <div style="width: 300px; border: 2px solid chocolate; padding:50px; margin: 20px; display: flex; align-items: center; justify-content: center; flex-direction: column;" >
+             <p style="color: whitesmoke; font-size: 22; text-align: justify;"> I Have Tested Caffeine Coffee Many Times. Really Amazing To Me.
+             The Combination Was Very Good. One Thing Is To Serve Extraordinary Coffee With Caffeine.
+             I Will Order From Caffeine For Any Of My Coffee Needs.</p>
+             <div class="stars" style="color: gold; font-size: 30px;">★★★★★</div>
+            <div class="customer-name" style="font-size: 40px; color: whitesmoke;">Shalima Hayden</div></p>
+             </div>
         </div>
         <div style="display: flex; align-items: center; justify-content: center;">
             <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/clients-img-5-hover.png" alt=""  width="190">
